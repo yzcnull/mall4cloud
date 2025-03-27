@@ -31,7 +31,7 @@
         <maven-compiler-plugin.version>3.12.0</maven-compiler-plugin.version>
         <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
         <java.version>17</java.version>
-
+        <profiles.active>dev</profiles.active>
         <!-- 核心依赖 -->
         <spring-boot.version>3.4.3</spring-boot.version>
         <spring-cloud.version>2024.0.0</spring-cloud.version>
@@ -224,14 +224,14 @@
     </dependencies>
 
 
-    <repositories>
-        <!--阿里云代理-->
-        <repository>
-            <id>aliyun</id>
-            <name>aliyun</name>
-            <url>https://maven.aliyun.com/nexus/content/groups/public</url>
-        </repository>
-    </repositories>
+<!--    <repositories>-->
+<!--        &lt;!&ndash;阿里云代理&ndash;&gt;-->
+<!--        <repository>-->
+<!--            <id>aliyun</id>-->
+<!--            <name>aliyun</name>-->
+<!--            <url>https://maven.aliyun.com/nexus/content/groups/public</url>-->
+<!--        </repository>-->
+<!--    </repositories>-->
 
     <pluginRepositories>
         <pluginRepository>
